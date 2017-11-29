@@ -37,6 +37,16 @@ namespace WebApplication2.Models
                 return _db.GetCollection<Usuario>("posmobile").FindOne(res);
             }
 
+        public Usuario GetUsuario(string nombreUsuario, string contrasena)
+        {
+            var res = Query<Usuario>.EQ(p => p.NombreDeUsuario, nombreUsuario);
+            var user = _db.GetCollection<Usuario>("posmobile").FindOne(res);
+            if ((user.NombreDeUsuario.Equals(nombreUsuario)) && (user.Contrasena.Equals(contrasena)))
+                return user;
+            else
+                return null;
+        }
+
         //public Usuario GetProducto(string usuario, string contrasena)
         //{
         //    var res = Query<Usuario>.EQ(p => p.NombreUsuario, usuario  & q=> q., contrasena);

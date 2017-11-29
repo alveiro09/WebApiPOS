@@ -35,6 +35,17 @@ namespace WebApiPOSMobile.Controllers
             return Usuario;
         }
 
+        [HttpGet]
+        public Usuario Get(string nombreUsuario, string contrasena)
+        {
+            var Usuario = objds.GetUsuario(nombreUsuario, contrasena);
+            if (Usuario == null)
+            {
+                return null;
+            }
+            return Usuario;
+        }
+
         [HttpPost]
         public string Post([FromBody]Usuario p)
         {
