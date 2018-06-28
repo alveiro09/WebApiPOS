@@ -1,37 +1,25 @@
 {
     "PQRS" : [
       {
-        "incidentid" : "Molecule Man",
-        "statecode" : 29,
-        "statuscode" : "Dan Jukes",
-        "title":"",
-        "description" : [
-          "Radiation resistance",
-          "Turning tiny",
-          "Radiation blast"
-        ]
+        "incidentid" : "CAS-00010-P5Q5J3",
+        "statecode" : 1,
+        "statuscode" : 0,
+        "title":"Prueba Caso 1",
+        "description" : "dsnmdñg"        
       },
       {
-        "incidentid" : "Molecule Man",
-        "statecode" : 29,
-        "statuscode" : "Dan Jukes",
-        "title":"",
-        "description" : [
-          "Radiation resistance",
-          "Turning tiny",
-          "Radiation blast"
-        ]
+        "incidentid" : "CAS-00011-X8H0Z1",
+        "statecode" : 1,
+        "statuscode" : 0,
+        "title":"Prueba Caso 2",
+         "description" : "dsnmdñg"      
       },
       {
-        "incidentid" : "Molecule Man",
-        "statecode" : 29,
-        "statuscode" : "Dan Jukes",
-        "title":"",
-        "description" : [
-          "Radiation resistance",
-          "Turning tiny",
-          "Radiation blast"
-        ]
+        "incidentid" : "CAS-00012-K3R4C5",
+        "statecode" : 1,
+        "statuscode" : 0,
+        "title":"Prueba Caso 2",
+        "description" : "dsnmdñg"      
       }
     ]
   }
